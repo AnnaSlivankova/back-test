@@ -9,7 +9,8 @@
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "dev": "nodemon --inspect dist/index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
